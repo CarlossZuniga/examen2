@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body{
+	font-family: "Catamaran";
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+	--fondo-tarjetas: #161616;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+#hero-slides h2{
+	text-align: start;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.btns{
+	background-color: var(--color-rojo);
+	color: #fff;
+	border: 2px solid var(--color-rojo);
+	padding: 5px 20px;
+	border-radius: 1px;
+	font-weight: 700;
+	margin-right: 30px; 
+	font-size: 14px;
+}
+
+#intro{
+	color: #fff;
+	padding: 5% 0;
+}
+
+.fondos-intro{
+	background-color: var(--fondo-tarjetas);
+	margin: 0 10px;
+	padding: 5%;
+}
+
+#intro img{
+	filter: grayscale(1);
+}
+
+#products{
+	padding: 0 0 5%;
+}
+
+.text-p{
+	background-color: var(--fondo-tarjetas);
+	color: #fff;
+	padding: 7%;
+}
+
+.text-p h5{
+	color: var(--color-rojo);
+}
+
+.text-p h6{
+	color: #71756e;
+	text-decoration: line-through;
+}
+
+#products h2{
+	color: #fff;
+	text-align: center;
+}
+
+#cta{
+	background-image: url("../img/bg-parallax.png");
+	background-color: rgba(236,54,66,0.99);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	color: #fff;
+}
+
+#cta h1{
+	font-weight: 800;
+	font-size: 50px;
+}
+
+#cta h3{
+	font-weight: 200;
+}
+
+.btn-cta{
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 10px 20px;
+	border-radius: 1px;
+	font-weight: 700;
+	margin-right: 30px;
+	margin-top: 15px;
+	font-size: 14px;
+}
